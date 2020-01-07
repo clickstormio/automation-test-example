@@ -1,0 +1,14 @@
+INSTALLATION:
+	1.	Download and install docker from https://www.docker.com/get-started
+	2.	Run in command line (wp-docker-compose.yml exists in root repository directory):	
+			docker-compose -f wp-docker-compose.yml up
+	3.	Open http://localhost:9111 and install wordpress with specified configuration
+			Lagunage:	English (United States)
+			Site Title: WordpressAutomationTests
+			Username:	admin
+			Password:	admin
+			You email:	admin@notexistingdomain.ddd
+
+CLEAN UP:
+	1.	Run in command line: 
+			docker-compose -f wp-docker-compose.yml down
