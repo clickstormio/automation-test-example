@@ -4,11 +4,11 @@ using Xunit;
 
 namespace WordpressAutomationTests.Tests.Administration
 {
-    public class AdministrationLogInTests : WebsiteTestBase
+    public class LogInTests : WebsiteTestBase
     {
         private LogInPage _logInPage;
 
-        public AdministrationLogInTests()
+        public LogInTests()
         {
             _logInPage = new LogInPage(WebDriver);
         }
