@@ -45,8 +45,6 @@ namespace WordpressAutomationTests.Tests.Administration
             postsPage
                 .Assert()
                 .HasPostOnList("test-post-title");
-
-            //todo cleanup
         }
     }
 }

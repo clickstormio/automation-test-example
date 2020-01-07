@@ -21,6 +21,7 @@ namespace WordpressAutomationTests.Pages.Administration.NewPost
         public NewPostPage Publish()
         {
             Elements.Publish.Click();
+
             return this;
         }
 

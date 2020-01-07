@@ -10,6 +10,6 @@ namespace WordpressAutomationTests.Sections.Administration.AdminMenu
         {
         }
 
-        public IWebElement Posts => WebDriver.FindElement(By.Id("menu-posts"));
+        public IWebElement Posts => WebDriver.FindElement(By.CssSelector("#menu-posts .menu-top-first"));
     }
 }
