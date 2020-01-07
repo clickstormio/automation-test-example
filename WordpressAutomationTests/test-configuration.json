@@ -1,0 +1,7 @@
+{
+  "WebsiteUrl": "http://localhost:9111",
+  "TestUser": {
+    "Username": "admin",
+    "Password": "admin"
+  }
+}
